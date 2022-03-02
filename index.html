@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+   
+<meta charset="utf-8">
+<title>CSS Smooth Text Color Transition</title>
+ <style>
+  
+#myDIV:hover {
+  color: blue;
+
+  /* HOVER ON */
+   -webkit-transition: border-radius 2s;
+   }
+   
+   
+   
+#myDIV{
+position: absolute;
+width:500px;
+display: inline-block;
+height: 49px;
+left: 496px;
+top: 173px;
+font-family:"Red Hat Text", serif;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 85px;
+animation: mymove 5s ;
+animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  50% {font: 40px bold;}
+  100% {font: 40px bold;}
+}
+
+#myDIV2{
+position: absolute;
+width: 330;
+display: inline-block;
+height: 99px;
+left: 856px;
+top: 225px;
+font-family:"Red Hat Text", serif;
+font-style: normal;
+font-weight: normal;
+font-size: 200px;
+line-height: 205px;
+animation: mymove 5s;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes mymove {
+  50% {font: 60px bold;}
+  100% {font: 100px bold;}
+  
+}
+   
+#myDIV3:hover {
+  color: yellow;
+
+  /* HOVER ON */
+   -webkit-transition: border-radius 2s;
+   } 
+   
+#myDIV3{
+position: absolute;
+width: 604px;
+display: inline-block;
+height: 99px;
+left: 496px;
+top: 403px;
+font-family: "Red Hat Text", serif;
+font-style: normal;
+font-weight: normal;
+font-size: 102px;
+line-height: 95px;
+animation: mymove 5s ;
+animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  50% {font: 40px bold;}
+  100% {font: 50px bold;}
+}
+   
+   
+#myDIV4{
+  position: absolute;
+  top: 750px; 
+  left: 1596px;   
+   }
+</style> 
+  
+</head>
+<body>
+<div id="myDIV">
+  <h1>The U.S Deploys</h1>
+  </div>
+  
+  
+<div id="myDIV2">
+  <p>Forces in <br> Response <br> to Putin's</p>
+  
+  </div>
+  
+  <div id= "myDIV3">
+  <h2>
+     Ukraine moves
+  </h2>
+  
+  </div>
+  
+  <div id="myDIV4">
+  <h2> <a href="page2.html" style="text-decoration: none;"> Next </a> </h2>
+  
+  
+  </div>
+  
+</body>
+</html>

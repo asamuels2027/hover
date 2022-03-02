@@ -1,0 +1,85 @@
+h3{
+  text-align: right;
+  
+  
+}
+
+h1{
+  font-size: 72pt;
+  text-align: center;
+  position: relative;
+
+}
+
+h2{
+  font-size: 72pt;
+  text-align: center;
+  top: 100px;
+  position: relative;
+
+}
+
+
+h1:hover{
+  color: Blue;
+  font-size: 100pt;
+}
+
+h2:hover{
+  color: yellow;
+  font-size: 100pt;
+
+}
+
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+    padding-top: 100px;
+	position: relative;
+}
+
+
+/* phrase style */
+p {
+    font-family: times, serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+.phrase2 {
+     transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+/* hover */
+
+.phrase1:hover {
+  	transform: rotate(15deg);
+    cursor: pointer;
+}
+
+.phrase2:hover {
+  	transform: rotate(-15deg);
+    cursor: pointer;
+
+}
+
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: #FFFFFF;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
